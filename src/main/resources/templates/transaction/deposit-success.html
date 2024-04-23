@@ -1,0 +1,8 @@
+<div th:insert="menu"></div>
+<html xmlns:th="http://www.thymeleaf.org">
+  <body onload="makeActive('deposit')">
+	<div class='dv'>
+  		<h2 style='color:green;font-family:cursive'>Hello user, amount <span th:text="${'&#8377;'+amount+' '}"><%=amount%></span>credited into your account</h2>
+ 	</div>
+   </body>
+</html>
